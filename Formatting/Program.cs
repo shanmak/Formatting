@@ -19,7 +19,7 @@ namespace Formatting
 
             Console.WriteLine(string.Format("{0}{1}{2}", one.PadRight(10, ' '), two.PadRight(10, ' '), three.PadRight(10, ' ')));
             Console.WriteLine();
-            Console.WriteLine(string.Format("{0,-10}{1,10}{2,10}", one1.PadRight(10, ' '), two1.PadRight(10, ' '), three1.PadRight(10, ' ')));
+            Console.WriteLine(string.Format("{0}{1}{2}", one1.PadRight(10, ' '), two1.PadRight(10, ' '), three1.PadRight(10, ' ')));
 
         }
     }
